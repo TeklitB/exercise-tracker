@@ -1,0 +1,26 @@
+- create react app
+npx create-react-app app-name
+
+- create package.json
+npm init -y
+
+- install dependencies
+- cors: cross-origin resource sharing
+-dotenv: loads environment variables from .env file to process.env
+npm install express cors mongoose dotenv
+
+-nodemon: automatically restart the node application when file changes in the directory are detected
+sudo npm install -g nodemon
+
+-In the backend folder:
+    -create server file
+
+    -Inside model create two files with database schema
+        -exercise.model.js
+        - users.model.js
+    -Create routes folder
+        -add the api end-point route so that we can perform CRUD operations
+            -exercises.js
+            -users.js
+-npm install bootstrap
+-npm install react-router-dom
